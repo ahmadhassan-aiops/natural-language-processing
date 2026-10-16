@@ -2,7 +2,7 @@
 
 # 💬 Natural Language Processing
 
-**Teach machines to read — from raw, messy text to clean tokens, vectors, word embeddings and a working sentiment classifier, on 50,000 real IMDB movie reviews.**
+**Teach machines to read: from raw, messy text to clean tokens, vectors, word embeddings and a working sentiment classifier, on 50,000 real IMDB movie reviews.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-Text-154F5B)
@@ -22,7 +22,7 @@ Raw text ──► Preprocessing ──► Vectorization ──► Word embeddin
  (IMDB)      clean & tokenize    BoW · TF-IDF      Word2Vec            sentiment
 ```
 
-Each notebook covers one stage of the pipeline on the same dataset, so you can see exactly how every step changes the text — and the model.
+Each notebook covers one stage of the pipeline on the same dataset, so you can see exactly how every step changes the text and the model.
 
 ---
 
@@ -32,7 +32,7 @@ Each notebook covers one stage of the pipeline on the same dataset, so you can s
 |---|---|---|
 | 1 | [Text preprocessing](1.%20Basic%20Text%20Preprocessing.ipynb) | Lowercasing, removing HTML & URLs, punctuation, abbreviations, spelling correction (TextBlob), stop words, tokenization (split, regex, NLTK, spaCy), stemming and lemmatization |
 | 2 | [Text representation / vectorization](2.%20Text%20Representation_Vectorization.ipynb) | Why text must become numbers; one-hot encoding, Bag of Words, n-grams, TF-IDF (and why the log in IDF), topic modelling with TF-IDF + NMF, custom feature extraction |
-| 3 | [Word embeddings (pre-trained)](3.%20Word%20Embeddings%20%28word_to_vector%29.ipynb) | Word2Vec with Google News 300-d vectors via Gensim — similar words, analogies and similarity on IMDB reviews |
+| 3 | [Word embeddings (pre-trained)](3.%20Word%20Embeddings%20%28word_to_vector%29.ipynb) | Word2Vec with Google News 300-d vectors via Gensim: similar words, analogies and similarity on IMDB reviews |
 | 4 | [Training Word2Vec + sentiment model](4.%20word2vec_self_trained_embedding_imdb.ipynb) | Train your own Word2Vec on 50k IMDB reviews, explore and visualise the 3-D vector space, then build a sentiment classifier with Logistic Regression |
 
 ---
@@ -49,7 +49,7 @@ jupyter notebook
 
 ### 🗂️ Dataset
 
-All lessons use the **IMDB Dataset of 50K Movie Reviews** (`IMDB Dataset.csv`, ~66 MB — too large to store here).
+All lessons use the **IMDB Dataset of 50K Movie Reviews** (`IMDB Dataset.csv`, ~66 MB, too large to store here).
 Download it from [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) and place it in the repository root, next to the notebooks.
 
 > Lesson 3 downloads the pre-trained `word2vec-google-news-300` vectors (~1.6 GB) through `gensim.downloader` on first run.
@@ -74,11 +74,11 @@ Download it from [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-d
 
 ## 👨‍🏫 About the author
 
-**Ahmad Hassan** — AI/ML Engineer & Instructor with 5+ years of experience
+**Ahmad Hassan** | AI/ML Engineer & Instructor with 5+ years of experience
 1,500+ hours of live teaching, 100+ students mentored from medicine, business and engineering into data roles.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ahmadhassan--aiops.github.io-0EA5A4)](https://ahmadhassan-aiops.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmad%20Hassan-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-hassan-79a44b1a3)
 [![GitHub](https://img.shields.io/badge/GitHub-ahmadhassan--aiops-181717?logo=github&logoColor=white)](https://github.com/ahmadhassan-aiops)
 
-⭐ If these notebooks help you learn, please star the repo — it helps other students find it!
+⭐ If these notebooks help you learn, please star the repo. It helps other students find it!
